@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR Painting App</title>
+  <style>
+    /* Style for canvas and controls */
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    canvas {
+      background-color: #ffffff;
+      display: block;
+      width: 100vw;
+      height: 100vh;
+    }
+    #controls {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 10px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Canvas element for drawing -->
+  <canvas id="canvas"></canvas>
+
+  <!-- Simple control panel -->
+  <div id="controls">
+    <button id="clear">Clear</button>
+  </div>
+
+  <!-- JS logic will go here -->
+  <script src="app.js"></script>
+</body>
+</html>
